@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d5489f-aa03-4dfa-a632-025732505e6c" name="Changes" comment="Adding fib algorithm">
+    <list default="true" id="74d5489f-aa03-4dfa-a632-025732505e6c" name="Changes" comment="Adding inheritance package + animal class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Reptile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Zookeeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/School/IdeaProjects/sandbox",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/School/IdeaProjects/sandbox&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Zookeeper">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.algorithm.Fibonacci" />
       <module name="sandbox" />
@@ -59,8 +64,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zookeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.inheritance.animal.Zookeeper" />
+      <module name="sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.inheritance.animal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zookeeper" />
         <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
@@ -75,7 +94,8 @@
       <updated>1661911684776</updated>
       <workItem from="1661911686195" duration="1532000" />
       <workItem from="1662081417298" duration="1383000" />
-      <workItem from="1662686383803" duration="617000" />
+      <workItem from="1662686383803" duration="2231000" />
+      <workItem from="1662689005921" duration="1683000" />
     </task>
     <task id="LOCAL-00001" summary="Adding fib algorithm">
       <created>1661913102683</created>
@@ -91,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662081437595</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding inheritance package + animal class">
+      <created>1662687565131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662687565131</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding fib algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding fib algorithm" />
+    <MESSAGE value="Adding inheritance package + animal class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding inheritance package + animal class" />
   </component>
 </project>
