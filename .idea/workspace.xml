@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d5489f-aa03-4dfa-a632-025732505e6c" name="Changes" comment="Adding inheritance package + animal class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Reptile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Zookeeper.java" afterDir="false" />
+    <list default="true" id="74d5489f-aa03-4dfa-a632-025732505e6c" name="Changes" comment="More inheritance">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/DivideByZeroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Crate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/GenericUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/HighOrderBehaviors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lambda/LambdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streamapi/StreamExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Zookeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Zookeeper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +27,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-11.0.16.101-hotspot/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-11.0.16.101-hotspot/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-11.0.16.101-hotspot/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,16 +61,17 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/School/IdeaProjects/sandbox&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Zookeeper">
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.algorithm.Fibonacci" />
+  <component name="RunManager" selected="Application.StreamExamples">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exceptions.Calculator" />
       <module name="sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.algorithm.*" />
+          <option name="PATTERN" value="org.example.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +79,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zookeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.inheritance.animal.Zookeeper" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.Demo" />
       <module name="sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.inheritance.animal.*" />
+          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.generics.GenericUsage" />
+      <module name="sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lambda.LambdaDemo" />
+      <module name="sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.streamapi.StreamExamples" />
+      <module name="sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.streamapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Zookeeper" />
-        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.StreamExamples" />
+        <item itemvalue="Application.LambdaDemo" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.GenericUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +152,16 @@
       <workItem from="1661911686195" duration="1532000" />
       <workItem from="1662081417298" duration="1383000" />
       <workItem from="1662686383803" duration="2231000" />
-      <workItem from="1662689005921" duration="1683000" />
+      <workItem from="1662689005921" duration="1764000" />
+      <workItem from="1663054473512" duration="26000" />
+      <workItem from="1663118731950" duration="1097000" />
+      <workItem from="1663119867909" duration="13000" />
+      <workItem from="1663119901423" duration="3467000" />
+      <workItem from="1663724967160" duration="2540000" />
+      <workItem from="1664328161282" duration="2610000" />
+      <workItem from="1664500755297" duration="1912000" />
+      <workItem from="1664502702128" duration="2516000" />
+      <workItem from="1664932872069" duration="3953000" />
     </task>
     <task id="LOCAL-00001" summary="Adding fib algorithm">
       <created>1661913102683</created>
@@ -118,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662687565131</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="More inheritance">
+      <created>1662690728270</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662690728270</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +211,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding fib algorithm" />
     <MESSAGE value="Adding inheritance package + animal class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding inheritance package + animal class" />
+    <MESSAGE value="More inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="More inheritance" />
   </component>
 </project>
